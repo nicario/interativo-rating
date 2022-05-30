@@ -2,48 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="refresh" content="1" href="./rating.html">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <!-- Rating state start -->
+  <main>
 
-  How did we do?
+    <img class="imagem" src="./assets/images/icon-star.svg" alt="">
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+    <h1 class="titulo">How did we do?</h1>
 
-  1 2 3 4 5
+    <p class="paragrafo">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
 
-  Submit
+    <ul class="lista">
+      <li class="li"><button class="link">1</button></li>
+      <li class="li"><button class="link">2</button></li>
+      <li class="li"><button class="link">3</button></li>
+      <li class="li"><button class="link">4</button></li>
+      <li class="li"><button class="link">5</button></li>
+    </ul>
 
-  <!-- Rating state end -->
+    <form class="acao" action="./rating.html">
+    <button class="botao" type="submit">Submit</button>
+    </form>
+  </main>
+</body>
 
-  <!-- Thank you state start -->
+  <script src="./assets/js/main.js"></script>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+</html>
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>

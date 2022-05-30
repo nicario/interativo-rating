@@ -1,0 +1,73 @@
+/* Index.html */
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    margin: 200px 30%
+}
+
+main {
+    box-sizing: border-box;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(217, 12%, 63%);
+    padding: 0;
+    margin: 50px 0;
+}
+
+.titulo {
+    color: white;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    padding: 0 0;
+}
+
+.botao {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 70px;
+    text-transform: uppercase;
+    margin: 0 3em;
+}
+
+.botao:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.link {
+    border: none;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: hsl(219, 13%, 22%);
+}
+
+.link:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.link:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.imagem {
+    border: none;
+    background-color: hsl(219, 13%, 22%);
+    padding: 10px;
+    border-radius: 100%;
+}
